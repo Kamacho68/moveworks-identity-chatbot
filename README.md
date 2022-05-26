@@ -1,4 +1,4 @@
-# moveworks-identity-chatbot
+# slackchatbot-identity-chatbot
 This exercise consist of building an identity chatbot to help HR managers to easily make changes, add new users and list users to the company employee directory through the chatbot.
 
 This demo contains following features:
@@ -24,14 +24,14 @@ This section shows you how to prepare, and run the sample application on your lo
 - #### Create a workspace
 To get started, we’ll need a workspace to install our bot in. A [Slack workspace](https://slack.com/intl/en-ng/help/articles/212675257-Join-a-Slack-workspace#:~:text=A%20Slack%20workspace%20is%20made,separate%20account%20for%20each%20one) is a way to group communication within an organization. Everyone in an organization can belong to one workspace, which is then subdivided into multiple channels.
 
-Install Slack on your device and create a [new workspace](https://slack.com/create#email). Slack will then send a 6-digit code to your email that you can use for verification. Now for the fun part! Give your workspace a name; for this example, we’ll create a workspace called moveworks.
+Install Slack on your device and create a [new workspace](https://slack.com/create#email). Slack will then send a 6-digit code to your email that you can use for verification. Now for the fun part! Give your workspace a name; for this example, we’ll create a workspace called Slackchatbot.
 
 - #### Create a new Slack application
 Now, we’ll create a new Slack app. Slack apps are small applications that provide specific functionalities within a workspace. You can install a preexisting Slack application by signing into your Slack workspace and searching for applications within the Slack app directory.
 
 The Slack app we’ll create is a knowledge base that helps HR managers quickly manage users within the organisation.
 
-To create a new Slack application, head to the [Slack API](https://api.slack.com/apps/) dashboard. Click the Create New App button on the top right. Give your bot a name, then select what workspace you would like to install the app to. We’ve called ours MoveworksHR.
+To create a new Slack application, head to the [Slack API](https://api.slack.com/apps/) dashboard. Click the Create New App button on the top right. Give your bot a name, then select what workspace you would like to install the app to. We’ve called ours SlackchatbotHR.
 
 - #### oAuth and Permissions
 We need to give our new application certain permissions for it to access data and perform actions within our Slack workspace.
