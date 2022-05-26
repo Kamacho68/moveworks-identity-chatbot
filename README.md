@@ -70,7 +70,7 @@ Copy the Forwarding URL which you will need to use in your slack app setting in 
 ## Chatbot app
 
 1. Using the Terminal app, enter the `install` command in your project directory. This command installs libraries that are required to run the sample application.
-    ``` bash
+    ```
     # install dependencies
     npm install
     ```
