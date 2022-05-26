@@ -39,21 +39,21 @@ We need to give our new application certain permissions for it to access data an
 On your Slack dashboard, you’ll find the **OAuth and Permissions** menu option on the left sidebar. Once you navigate here, scroll down to **Scopes**. We need our chatbot to be able to read instant messages from users and respond to those messages.
 
 Get the following keys to set up in your `.env` file.
-    ``` bash
-    SLACK_SIGNING_SECRET
-    SLACK_BOT_TOKEN
-    SLACK_APP_TOKEN
-    ```
+``` bash
+SLACK_SIGNING_SECRET
+SLACK_BOT_TOKEN
+SLACK_APP_TOKEN
+```
 
 - #### Install the app to your workspace
 With that done, we can now install the app to our workspace. From the left sidebar, navigate to **Settings** > **Install Apps** > **Install to Workspace**.
 
 ### Okta application
 Get the following keys to set up in your `.env` file. These will e required for the API calls made to manage users in Okta as we are using this for the identity management.
-    ``` bash
-    OKTA_ISSUER_URI
-    OKTA_API_TOKEN
-    ```
+``` bash
+OKTA_ISSUER_URI
+OKTA_API_TOKEN
+```
 
 ### Install
 
