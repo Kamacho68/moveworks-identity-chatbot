@@ -54,11 +54,10 @@ The ngrok agent is the command line application that you will use to start your 
 Now that the ngrok agent is installed, let's connect it to your ngrok Account. If you haven't already, sign up (or log in) to the ngrok Dashboard and get your Authtoken. The ngrok agent uses the authtoken (sometimes called tunnel credential) to log into your account when you start a tunnel.
 
 Copy the value and run this command to add the authtoken in your terminal.
-    ``` bash
+    ```
     ngrok config add-authtoken TOKEN
     ```
 4. Start ngrok
-
     ```
     ngrok http 3000
     ```
