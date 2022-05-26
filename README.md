@@ -59,7 +59,7 @@ Copy the value and run this command to add the authtoken in your terminal.
     ```
 4. Start ngrok
 
-    ``` bash
+    ```
     ngrok http 3000
     ```
 Copy the Forwarding URL which you will need to use in your slack app setting in the following app features once enabled:
