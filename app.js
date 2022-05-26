@@ -82,7 +82,13 @@ app.message('query', async({ message, say }) => {
         if (response.errorCode) {
             say(`User couldn't be found: \n\n ${response.errorSummary}`);
         } else if (response.status === 'STAGED' || response.status === 'ACTIVE') {
-            say(`Email: ${response.profile.email}\n\n First Name: ${response.profile.firstName}\n\n Last Name: ${response.profile.lastName}`);
+            var results = '';
+            Object.keys(response.profile).forEach(key => {
+                let value = response.profile[key];
+                results += key + ': ' + value + '\n';
+            });
+            // console.log(results);
+            say(`${results}`);
         }
     }).catch((error) => {
         console.error('Error: ', error);
