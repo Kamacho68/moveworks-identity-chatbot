@@ -53,12 +53,12 @@ The ngrok agent is the command line application that you will use to start your 
 
 Now that the ngrok agent is installed, let's connect it to your ngrok Account. If you haven't already, sign up (or log in) to the ngrok Dashboard and get your Authtoken. The ngrok agent uses the authtoken (sometimes called tunnel credential) to log into your account when you start a tunnel.
 
-Copy the value and run this command to add the authtoken in your terminal.
-    ```
+3. Copy the value and run this command to add the authtoken in your terminal.
+    ``` bash
     ngrok config add-authtoken TOKEN
     ```
 4. Start ngrok
-    ```
+    ``` bash
     ngrok http 3000
     ```
 Copy the Forwarding URL which you will need to use in your slack app setting in the following app features once enabled:
@@ -69,7 +69,7 @@ Copy the Forwarding URL which you will need to use in your slack app setting in 
 ## Chatbot app
 
 1. Using the Terminal app, enter the `install` command in your project directory. This command installs libraries that are required to run the sample application.
-    ```
+    ``` bash
     # install dependencies
     npm install
     ```
